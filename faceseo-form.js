@@ -111,7 +111,7 @@ jQuery(divpopup).attr('id', 'myModalthanh');
 jQuery(divpopup).attr('class', 'thanhfaceseo-modal');
 jQuery( "body" ).append(divpopup);
 var titleform='Đăng ký Form';
-var urlform="https://docs.google.com/forms/d/e/1FAIpQLSeo_ykyKLTZu3RlYBj4otZnI1QhpfhgFopKN0sHcFMDR5dfOw/viewform?usp=sf_link";
+var urlform="https://docs.google.com/forms/d/e/1FAIpQLSeo_ykyKLTZu3RlYBj4otZnI1QhpfhgFopKN0sHcFMDR5dfOw/formResponse";
 var urlchuyen=window.location.href;
 var hovaten="578406401";
 var dienthoai="881603441";
@@ -139,7 +139,7 @@ jQuery("#myModalthanh").html(formdiv);
 function thanhxet(){
 
 if(submittedform) {
-	window.location="https://sanhungthinh.net/lien-he";
+	window.location="https://sannamland.net/lien-he";
 var linkhientai=window.location;
 if(getCookie(linkhientai)){
                 	
